@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "리뷰를 작성해 주세요",
+  title: '리뷰를 작성해 주세요',
 };
 
 export default function RootLayout({

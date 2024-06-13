@@ -1,17 +1,17 @@
-import type { Metadata } from "next";
-import { Inter, Noto_Sans_KR } from "next/font/google";
-import Header from "@/components/Organism/Header/Header";
-import "../styles/globals.css";
+import type { Metadata } from 'next';
+import { Inter, Noto_Sans_KR } from 'next/font/google';
+import Header from '@/components/Organism/Header/Header';
+import '../styles/globals.css';
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const notoSansKr = Noto_Sans_KR({
-  subsets: ["latin"],
-  variable: "--font-notoSansKr",
+  subsets: ['latin'],
+  variable: '--font-notoSansKr',
 });
 
 export const metadata: Metadata = {
-  title: "떡볶잇",
-  description: "원하는 대로 골라 먹는 떡볶이",
+  title: '떡볶잇',
+  description: '원하는 대로 골라 먹는 떡볶이',
 };
 
 export default function RootLayout({
