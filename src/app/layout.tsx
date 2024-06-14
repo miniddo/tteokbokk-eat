@@ -21,9 +21,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${notoSansKr.variable}`}>
+      <body className={`${inter.variable} ${notoSansKr.variable} bg-slate-100`}>
         <Header />
-        <section className="w-full h-[calc(100%-52px)]">{children}</section>
+        <section className="h-[calc(100%-52px)] w-full overflow-y-auto">
+          {children}
+        </section>
       </body>
     </html>
   );
