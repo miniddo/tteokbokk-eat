@@ -20,16 +20,14 @@ export default function Button({
   };
 
   const variantInfo = {
-    primary:
-      'bg-blue-700 text-white focus:outline-none focus:ring-4 focus:ring-blue-300',
-    secondary:
-      'bg-slate-100 text-gray-900 focus:outline-none rounded-lg border border-gray-300 focus:z-10 focus:ring-4 focus:ring-gray-100',
+    primary: 'bg-blue-700 text-white focus:ring-2',
+    secondary: 'bg-white text-gray-900 border border-gray-300 focus:ring-2',
   };
 
   return (
     <button
       type="button"
-      className={`${sizeInfo[size]} ${variantInfo[variant]} rounded-lg text-center`}
+      className={`${sizeInfo[size]} ${variantInfo[variant]} rounded-lg text-center font-notoSansKr`}
       onClick={onClick}
     >
       {children}

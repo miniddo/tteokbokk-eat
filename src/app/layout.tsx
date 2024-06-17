@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Noto_Sans_KR } from 'next/font/google';
-import Header from '@/components/Organism/Header/Header';
+import Header from '@/components/Organism/Header';
 import '../styles/globals.css';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
